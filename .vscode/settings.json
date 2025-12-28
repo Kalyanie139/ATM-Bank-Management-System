@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "bank_management_system/src",
+        "bank_management_system/lib"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "bank_management_system/lib/jcalendar-1.4.jar",
+        "bank_management_system/lib/mysql-connector-java-8.0.28.jar"
+    ]
+}

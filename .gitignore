@@ -1,0 +1,11 @@
+# Ignore compiled Java files
+*.class
+
+# Ignore jar files
+*.jar
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore log files (optional)
+*.log
