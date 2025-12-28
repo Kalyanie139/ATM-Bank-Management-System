@@ -16,16 +16,24 @@ This application replicates core ATM functionalities with a focus on secure auth
 - Database: MySQL
 - API: JDBC
 
-📂 Project Structure
-ATM_Project/
+📁 Project Structure: ATM_Project/
 ├── src/
 │   └── bank_management_system/
-│       ├── Login.java          - Entry point and authentication
-│       ├── Signup.java         - User registration flow
-│       ├── Transactions.java   - Main dashboard
-│       ├── Conn.java           - JDBC connection logic
-│       └── ...                 - Feature-specific classes (Deposit, Withdraw, etc.)
-└── icons/                      - UI assets
+│       ├── Login.java         # Entry point and authentication
+│       ├── Signup1.java       # User registration flow
+│       ├── Signup2.java
+│       ├── Signup3.java
+│       ├── Transactions.java  # Main dashboard
+│       ├── Conn.java          # JDBC connection logic
+│       ├── Deposit.java       # Deposit feature
+│       ├── Withdrawl.java     # Withdraw feature
+│       ├── FastCash.java      # Fast cash feature
+│       ├── BalanceEnquiry.java
+│       ├── Pin.java
+│       └── MiniStatement.java
+└── icons/
+    ├── atm.jpg
+    └── logo.jpg
 
 🚀 Quick Setup
 1. Clone the repository  
