@@ -9,3 +9,4 @@
 
 # Ignore log files (optional)
 *.log
+bin/
