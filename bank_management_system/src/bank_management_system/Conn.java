@@ -23,9 +23,9 @@ public class Conn {
             // jdbc:mysql:///bankmanagementsystem → database ka URL
             // root, root → username aur password
             c = DriverManager.getConnection(
-                    "jdbc:mysql:///bankmanagementsystem",
-                    "root",
-                    "Kalyani@2024");
+            "jdbc:mysql:///bankmanagementsystem",
+            System.getenv("DB_USER"),
+            System.getenv("DB_PASSWORD"));
 
             // Statement object create kiya
             // Iski help se hum SQL queries (SELECT, INSERT, UPDATE) chalayenge
